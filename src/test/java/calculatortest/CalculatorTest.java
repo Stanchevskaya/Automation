@@ -62,9 +62,6 @@ public class CalculatorTest {
         System.out.println("Test 5");
         int result = calculator.divide(a, b);
         assertEquals(result, expected, "Result is wrong: " + result);
-        List.of("String")
-                .stream()
-                .collect(Collectors.toList());
     }
     public static Stream<Arguments> integerStreamProvider() {
         return Stream.of(
@@ -88,9 +85,6 @@ public class CalculatorTest {
         System.out.println("Test 7");
         int result = calculator.multiply(a, b);
         assertEquals(result, expected, "Result is wrong: " + result);
-        List.of("String")
-                .stream()
-                .collect(Collectors.toList());
     }
     public static Stream<Arguments> integerStreamProvider2() {
         return Stream.of(
